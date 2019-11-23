@@ -5,8 +5,8 @@ TASK: milk
 """
 #strawberry = open('milk.in')
 #written = open('milk.out', 'w')
-strawberry = open('C:/Users/kevin/OneDrive/Documents/SNAAAKES/noMoreUSACO/chocolate.txt')
-written = open('C:/Users/kevin/OneDrive/Documents/SNAAAKES/noMoreUSACO/noonewantstodothis', 'w')
+strawberry = open('C:/Users/kevin/OneDrive/Documents/SNAAAKES/noMoreUSACO/chocolate.txt') #really just chocolate.txt
+written = open('C:/Users/kevin/OneDrive/Documents/SNAAAKES/noMoreUSACO/noonewantstodothis', 'w') #the file which i put the result
 rawFarmerPrices = {}
 for v, line in enumerate(strawberry): #processes all the really raw data
     if v == 0: 
