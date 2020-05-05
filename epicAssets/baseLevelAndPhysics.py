@@ -50,7 +50,7 @@ class Level(arcade.View):
         self.theme.set_font(14, arcade.color.BLACK, str(Path(__file__).parent) + "/pixelFont.TTF")
         self.ln = levelNum  # ln stands for level number
 
-        if self.ln == 1:  # tutorial tex
+        if self.ln == 1:  # tutorial text
             self.positions = [[944.0, 1264.0],
                               [1730.0, 1380.0],
                               [2850.0, 1296.0],
@@ -175,7 +175,7 @@ class Level(arcade.View):
         self.sands.draw()
         self.stars.draw()
         self.torchs.draw()
-        if self.ln == 1:
+        if self.ln == 1:  # again, self.ln is just the level number
             for x, i in enumerate(self.positions):
                 arcade.draw_text(self.text[x], i[0], i[1], font_name=str(Path(__file__).parent) + "/pixelFont.TTF",
                                  font_size=20, color=arcade.color.BLACK)
@@ -520,7 +520,11 @@ class Level(arcade.View):
 
         else:
             self.window.sfx['level music'].stop()
-            self.window.show_view(self.window.gameOver)
+            try:
+                self.window.show_view(self.window.gameOver)
+            except AttributeError:
+                self.window.close()
+                print('YOU LOST.')
         self.pauseSign.center_x, self.pauseSign.center_y = self.xCam + 370, self.yCam + 200
 
 

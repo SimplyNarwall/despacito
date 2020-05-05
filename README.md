@@ -13,3 +13,8 @@ Get on top of another cube to join with them
 Collect all the stars to unlock the exit door  
 You have to get all three squares/cubes to the exit door at the end of the level to complete it  
 Spikes and bees hate you tho
+
+###contributors  
+me  
+RedBlueBird  
+SimplyNarwall  
