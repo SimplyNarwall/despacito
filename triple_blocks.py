@@ -1,9 +1,6 @@
-from pathlib import Path
-from sys import path
-path.append(str(Path(__file__).parent.parent))
-from gamer_gang.epicAssets.menuCrap import *
-from gamer_gang.epicAssets.baseLevelAndPhysics import *
-from gamer_gang.dumbConstants import *
+from epicAssets.menuCrap import *
+from epicAssets.baseLevelAndPhysics import *
+from dumbConstants import *
 
 class ActualGame(arcade.Window):
     def __init__(self):

@@ -1,5 +1,4 @@
-k judges  
-This only works if your current working directory is my team repo  
+cwd has to be the repo
 
 ###Running Directions   
 Your file path has to be like C:/Users/stuff/game-jam-2020 for this game to work  

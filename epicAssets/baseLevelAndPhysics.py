@@ -2,9 +2,9 @@ import itertools
 from pathlib import Path
 from arcade.gui import TextButton
 import pytiled_parser
-from gamer_gang.epicAssets.entities import *
-from gamer_gang.epicAssets.terrainStuff import *
-from gamer_gang.dumbConstants import *
+from epicAssets.entities import *
+from epicAssets.terrainStuff import *
+from dumbConstants import *
 
 def getNames(name):
     name = name.split(sep='on')

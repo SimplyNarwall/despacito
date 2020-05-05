@@ -1,7 +1,7 @@
 from pathlib import Path
 from arcade.gui import *
 import random
-from gamer_gang.dumbConstants import *
+from dumbConstants import *
 
 
 class MenuView(arcade.View):

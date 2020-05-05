@@ -2,7 +2,7 @@ import random
 import math
 import arcade
 import pymunk
-from gamer_gang.dumbConstants import *
+from dumbConstants import *
 
 class Player(arcade.Sprite):
     def __init__(self, pymunk_shape, textures, scale, x, y, name):
