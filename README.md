@@ -1,8 +1,8 @@
 cwd has to be the repo
 
 ###Running Directions   
-Your file path has to be like C:/Users/stuff/game-jam-2020 for this game to work  
-So yea you're gonna have to run: "python gamer_gang/triple_blocks.py"  
+Your file path has to be like C:/Users/stuff/deathpacito for this game to work  
+So yea you're gonna have to run: "python triple_blocks.py"  
 Maybe requirements.txt too
 
 ###Game Mechanics   
