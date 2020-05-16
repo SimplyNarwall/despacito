@@ -1,4 +1,5 @@
 cwd has to be the repo
+how do you put images in a readme; if someone knows, plz open a pull and put some screenies in
 
 ###Running Directions   
 Your file path has to be like C:/Users/stuff/deathpacito for this game to work  
