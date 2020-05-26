@@ -1,6 +1,5 @@
 import itertools
 from pathlib import Path
-from arcade.gui import TextButton
 import pytiled_parser
 from epicAssets.entities import *
 from epicAssets.terrainStuff import *
@@ -209,9 +208,9 @@ class Level(arcade.View):
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.A:
-            self.userInputs[1] = -30
+            self.userInputs[1] = -20
         elif key == arcade.key.RIGHT or key == arcade.key.D:
-            self.userInputs[0] = 30
+            self.userInputs[0] = 20
         elif key == arcade.key.UP or key == arcade.key.W:
             self.userInputs[2] = 475
         elif key == arcade.key.NUM_1 or key == arcade.key.KEY_1:
@@ -530,7 +529,7 @@ class Level(arcade.View):
 
 if __name__ == '__main__':
     testGame = arcade.Window(1000, 600, 'test')
-    testGame.level = Level(1)
+    testGame.level = Level(2)
     testGame.game_over = False
     filePath = str(Path(__file__).parent.parent)
     testGame.sfx = {"jump": arcade.load_sound(str(Path(__file__).parent) + "/sounds/jump.wav"),
