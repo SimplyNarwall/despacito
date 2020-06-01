@@ -15,7 +15,4 @@ Collect all the stars to unlock the exit door
 You have to get all three squares/cubes to the exit door at the end of the level to complete it  
 Spikes and bees hate you tho
 
-###contributors  
-me  
-RedBlueBird  
-SimplyNarwall  
+had some friends help me out with some bugs in the physics engine  
