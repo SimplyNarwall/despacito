@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E741" />
+          <option value="E305" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="gamer_gang.mechanics.baseLevelAndPhysics.*" />
+          <option value="gamer_gang.mechanics.menuCrap.*" />
+          <option value="gamer_gang.mechanics.test.*" />
+          <option value="gamer_gang.triple_blocks.*" />
+          <option value="dict.__getitem__" />
+          <option value="theBigCB.tokyoTomarae.naiveFutures.*" />
+          <option value="theBigCB.tokyoTomarae.averageFutures.*" />
+          <option value="theBigCB.tokyoTomarae.batchesOfCookies.*" />
+          <option value="theBigCB.tokyoTomarae.enslavedSingleCell.*" />
+          <option value="theBigCB.tokyoTomarae.enslavedRNN1.*" />
+          <option value="theBigCB.tokyoTomarae.enslavedRNN2.zaWarudoTimes" />
+          <option value="theBigCB.tokyoTomarae.enslavedRNN2.wholeWindowSequences" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
